@@ -47,9 +47,10 @@ namespace NHOM_NAM
             this.label1.AutoSize = true;
             this.label1.Location = new System.Drawing.Point(65, 40);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(85, 20);
+            this.label1.Size = new System.Drawing.Size(112, 20);
             this.label1.TabIndex = 1;
-            this.label1.Text = "UserName";
+            this.label1.Text = "tên đăng nhập";
+            this.label1.TextAlign = System.Drawing.ContentAlignment.TopCenter;
             // 
             // label2
             // 
