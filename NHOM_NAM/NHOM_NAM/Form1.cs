@@ -16,5 +16,22 @@ namespace NHOM_NAM
         {
             InitializeComponent();
         }
+
+        private void btnlogin_Click(object sender, EventArgs e)
+        {
+            String user = txtUserName.Text;
+            String pw = txtpassword.Text;
+            if(user == "admin" && pw == "admin")
+            {
+                MessageBox.Show("Đăng Nhập thành công!!");
+                Form2 form = new Form2();
+                form.Show();
+                this.Hide();
+            }
+            else
+            {
+                MessageBox.Show("Đăng Nhập thất bại!!");
+            }
+        }
     }
 }

@@ -77,6 +77,7 @@ namespace NHOM_NAM
             this.btnlogin.TabIndex = 4;
             this.btnlogin.Text = "đăng nhập";
             this.btnlogin.UseVisualStyleBackColor = true;
+            this.btnlogin.Click += new System.EventHandler(this.btnlogin_Click);
             // 
             // Form1
             // 
